@@ -1,0 +1,342 @@
+
+/*all common css end*/
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/*all common css start*/
+
+/*header part css start*/
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#4756DF;
+    
+}
+.nav-link:hover{
+    color:#fff;
+}
+.contact_btn{
+    padding:15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.contact_btn a{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+
+/*header part css end*/
+/*bannar part css start*/
+#bannerpart{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banneroverly{
+    background: rgba(0,0,0,0.62);
+    padding-top: 330px;
+    padding-bottom: 170px;
+}
+.bannertext h3{
+    font-size:75px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#fff;
+    margin-bottom: 55px;
+}
+.bannertext p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#fff;
+    padding-bottom:45px;
+    margin: 0px 155px;
+}
+.bannertext a{
+    font-size:20px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color:#fff;
+    padding:15px 30px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    
+    
+}
+/*bannar part css end*/
+/*counter part css start*/
+#counterpart{
+   padding:165px 0px;
+}
+.lefttext p{
+    font-size:25px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color:#6A4DF4;
+}
+.lefttext h4{
+    font-size:35px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+}
+.collgitem h3{
+    font-size:50px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+}
+.collgitem p{
+    font-size:18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+}
+.counteritem h3{
+    font-size:50px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+}
+.counteritem p{
+    font-size:18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+}
+.counteriteam h3{
+    font-size:50px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+}
+.counteriteam p{    
+    font-size:18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+}
+.background{
+    background: #E0FFF9;
+    padding:80px 50px;
+    border-radius: 20px;
+}
+/*counter part css end*/
+/*services part start*/
+#servicespart{
+    padding-bottom: 170px;
+}
+
+.headertext h3{
+    font-size:45px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+}
+.headertext p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+    margin: 0px 243px;
+}
+.servicestext h4{
+    font-size:25px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+    margin-top:40px;
+    margin-bottom:30px
+}
+.servicestext p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+    margin: 0px -30px;
+    
+}
+.servicesiteam{
+    text-align:center;
+    margin-top:55px;
+    padding:80px 50px 50px;
+    
+}
+.servicesiteam:hover{
+    
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgb(117, 110, 110);
+    -moz-box-shadow:0px 0px 5px 0px rgb(117, 110, 110); 
+    -webkit-box-shadow:0px 0px 5px 0px rgb(117, 110, 110); 
+}
+
+
+/*services part end*/
+
+/*recent work css part start*/
+#recentworkpart{
+    padding:50px 0;
+    background:#F3F3F3;
+    padding-bottom:215px;
+}
+.recenttittle h4{
+    font-size:45px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+}
+.recenttittle p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+}
+.imgtext h4{
+    font-size:20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+}
+.imgtext p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+}
+.recentworktext h4{
+    font-size:25px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+    margin-top:40px;
+    margin-bottom:30px
+}
+.recentworktext p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+    margin: 0px -30px;
+    
+}
+.bgworkitem{
+    background: #fff;
+    padding:0 42px 25px 42px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 50px;
+}
+.bgworkitem h4{
+    font-size:20px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+    text-align: center;
+    padding-top:17px;
+}
+.bgworkitem p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+    text-align: center;
+}
+
+.worksimg{
+    margin-top:110px;
+    
+}
+.bgworkitem{
+    background: #fff;
+    padding:0 42px 25px 42px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+.workimg{
+    background: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+/*recent work css part end*/
+
+/*why part css start*/
+#whypart{
+    padding-top:85px;
+}
+.whychoose{
+    padding-top:141px;
+}
+.headerparttext h2{
+    font-size:45px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+    margin:0px 70px;
+}
+.headerparttext p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+    margin: 0px -85px;
+    padding-top:32px;
+}
+.why1{
+    margin-bottom:40px;
+}
+.whyicon{
+    padding-bottom:10px;
+}
+.icontext h3{
+    font-size:25px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+}
+.icontext p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+}
+
+/*why part css start*/
+
+/*review part css start*/
+
+#reviewpart{
+    padding-top: 100px;
+}
+.reviewtext h3{
+    font-size:45px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#151515;
+}
+.reviewtext p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#737373;
+    margin: 0px -40px;
+}
+/*review part css end*/
